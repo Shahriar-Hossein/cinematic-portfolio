@@ -44,7 +44,7 @@ const projects = [
     featured: false,
   },
   {
-    name: "Portfolio Website",
+    name: "Portfolio Website V1",
     description: "Personal portfolio built with Vue.js and TypeScript to showcase projects and certifications.",
     link: "https://md-shahriar-hossein.vercel.app",
     tech: ["Vue.js", "TypeScript", "TailwindCSS"],
@@ -54,7 +54,7 @@ const projects = [
 
 const experience = [
   {
-    period: "July 2025 — Present",
+    period: "July 2025 - Present",
     role: "Junior Software Engineer",
     company: "WPXPO",
     companyLink: "https://wpxpo.com",
@@ -65,25 +65,14 @@ const experience = [
     ],
   },
   {
-    period: "2024",
-    role: "Software Engineer",
+    period: "September 2023 - 2024",
+    role: "Junior Software Engineer",
     company: "DevSpace",
     companyLink: "#",
     highlights: [
       "Built full-stack web applications with Laravel and React",
       "Designed and implemented RESTful APIs",
       "Delivered features improving usability and performance",
-    ],
-  },
-  {
-    period: "2023",
-    role: "Backend Developer",
-    company: "Softdeft",
-    companyLink: "#",
-    highlights: [
-      "Developed backend systems with PHP and Laravel",
-      "Refactored legacy codebases for maintainability",
-      "Collaborated across teams on feature delivery",
     ],
   },
 ]
