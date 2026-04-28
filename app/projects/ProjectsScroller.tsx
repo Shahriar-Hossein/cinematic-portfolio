@@ -36,7 +36,7 @@ export default function ProjectsScroller() {
             {projects.length} projects
           </p>
           <p className="text-muted-foreground/50 text-[10px] font-mono mt-1 tracking-widest uppercase">
-            Hover to pause
+            Hover / hold to pause
           </p>
         </div>
       </div>
@@ -53,6 +53,9 @@ export default function ProjectsScroller() {
           className="h-full flex items-center"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
+          onTouchStart={() => setPaused(true)}
+          onTouchEnd={() => setPaused(false)}
+          onTouchCancel={() => setPaused(false)}
         >
           <div
             className="flex gap-6 w-max px-8"
