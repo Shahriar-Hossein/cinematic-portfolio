@@ -45,7 +45,7 @@ export const projects = [
     description: "Personal portfolio built with Vue.js and TypeScript to showcase projects and certifications.",
     link: "https://md-shahriar-hossein.vercel.app",
     tech: ["Vue.js", "TypeScript", "TailwindCSS"],
-    featured: false,
+    featured: true,
   },
 ]
 

@@ -43,9 +43,22 @@ export default function ProjectsScene() {
             </Link>
           ))}
         </div>
-        <p className="text-center text-muted-foreground text-sm mt-8 opacity-0 animate-fade-in delay-500">
-          And {otherCount} more projects...
-        </p>
+        <div className="text-center mt-8 opacity-0 animate-fade-in delay-500">
+          <Link
+            href="/projects"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs font-mono text-primary border border-primary/30 hover:border-primary hover:bg-primary/5 px-5 py-2.5 transition-all tracking-widest uppercase"
+          >
+            View All Projects
+            <span>→</span>
+          </Link>
+          {otherCount > 0 && (
+            <p className="text-muted-foreground text-xs mt-3 font-mono">
+              +{otherCount} more in the archive
+            </p>
+          )}
+        </div>
       </div>
     </div>
   )
